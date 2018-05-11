@@ -1,4 +1,9 @@
-# Introduction {#intro by PH}
+# Introduction {#intro}
+
+There are many books about Data Science. Why does the world need another one, particularly one targeting physicians?
+- there is a lot of health care data
+- there are a lot of interesting questions in health care
+- there are particular issues with PHI (Protected Health Information)
 
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
