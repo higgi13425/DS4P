@@ -1,0 +1,19 @@
+# Graphic Summaries for a Single Variable with ggplot 
+
+#### DataCamp ggplot 1 course
+
+#### Histograms
+
+##### Histogram Challenges
+
+####	Boxplot
+
+##### Boxplot Challenges
+
+####	Violin plot
+
+##### Violin Plot Challenges
+
+
+
+

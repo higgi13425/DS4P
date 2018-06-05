@@ -1,0 +1,18 @@
+# Checking, Validating, And Exploring your Data
+
+####	Cleaning – names with janitor package to snake_case
+
+##### A few words about tidyverse style
+
+####	Finding Missing data – naniar and visdat packages
+
+####	Validating data – validate package
+
+####	Evaluating – str, glimpse
+
+####	Exploring- skimr package
+
+####	Histograms
+
+####	Correlations – ggally extension of ggplot2, and corrr package
+

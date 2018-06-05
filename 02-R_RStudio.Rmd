@@ -1,0 +1,45 @@
+# Starting Out with R and RStudio   
+
+<br> 
+
+## Introduction and Tools (R, RStudio, and R Markdown)   
+
+<br> 
+
+##Install R on your computer 
+
+<br>  
+
+## Install RStudio  
+ 
+<br> 
+
+## Access DataCamp online  
+
+<br>
+
+## DataCamp for RStudio IDE (Part 1)  
+
+<br>
+
+## DataCamp for RStudio IDE (Part 2) 
+
+<br>
+
+## Access RStudio cloud  
+
+<br>
+
+## R basics E-book  
+
+<br>
+Use the e-book Rbasics by Chester Ismay 
+
+https://ismayc.github.io/rbasics-book/
+
+<br>
+
+## RStudio tips document  
+
+<br>
+

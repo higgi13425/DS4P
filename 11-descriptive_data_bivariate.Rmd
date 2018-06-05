@@ -1,0 +1,9 @@
+# Descriptive Data for Two or More Variables
+
+
+####	Table
+
+####	Janitor crosstab tabyl
+
+
+

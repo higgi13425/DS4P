@@ -1,0 +1,18 @@
+# Data Types
+
+####	Numeric - Integer, double
+
+####	Strings with the stringr package
+
+#####	Rebus package and regex
+
+#####	DataCamp strings course
+
+####	Factors with the forcats package
+
+#####	https://peerj.com/preprints/3163/ 
+
+####	Dates with the lubridate package
+
+#####	DataCamp dates and times course
+

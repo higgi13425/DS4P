@@ -1,0 +1,11 @@
+# Sample Size and Power
+
+####	Estimating measures in each group
+
+####	Estimating effect size
+
+####	Estimating range and SD
+
+####	Power calc for continuous
+
+####	Power calc for proportion

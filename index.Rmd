@@ -2,31 +2,55 @@
 title: "Data Science for Physicians (DS4P)"
 author: "Peter Higgins"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-output: bookdown::gitbook
+site: "bookdown::bookdown_site"
+output: 
+  bookdown::gitbook: 
+    highlight: tango
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This is an introduction to Data Science targeted at Physicians. The output format for this example is bookdown::gitbook."
 ---
 
 # Prerequisites
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+Thank you for giving this e-book a try. This is designed for physicians or others analyzing health data who are interested in pursuing this field using the R language.
+<br>
+We will assume that:
 
-The **bookdown** package can be installed from CRAN or Github:
+- you have access to a computer
+- that you have access to the internet
+- that you can download the current version of R, and 
+- that you have downloaded a current version of Rstudio.
+<br>
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+### To Install R:
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+- Open an internet browser and go to <https://www.r-project.org>.
+- Click the "download R" link in the middle of the page under "Getting Started."
+- Select a CRAN location (a mirror site) and click the corresponding link.  
+- Click on the "Download R for Windows" link at the top of the page.  
+- Click on the "install R for the first time" link at the top of the page.
+- Click "Download R for Windows" and save the executable file somewhere on your computer.  Run the .exe file and follow the installation instructions.  
+- Now that R is installed, you need to download and install RStudio. <br>
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+### To Install RStudio:
+
+- Go to <http://www.rstudio.com> and click on the "Download RStudio" button.
+- Click on "Download RStudio Desktop."
+- Click on the version recommended for your system (Windows, Mac, Linux), and save the downloaded file.  Run the file and follow the installation instructions.     
+<br>
+<br>
+<br>
+<br>
+
+This is a book written in **RMarkdown**. 
+
+Each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+
+To compile this example to PDF, you need XeLaTeX. It is recommended that you install the TinyTeX package (which includes XeLaTeX): <https://yihui.name/tinytex/>.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

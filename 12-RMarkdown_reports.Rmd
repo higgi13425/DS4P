@@ -1,0 +1,13 @@
+# Presenting your Results in a report with RMarkdown
+
+
+#### DataCamp Rmarkdown Course
+
+#### Practice with data from Chapter 8 - HTML
+
+#### Practice with data from Chapter 9 - Word
+
+#### Practice with data from Chapter 10 - PPT
+
+
+

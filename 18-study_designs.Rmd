@@ -1,0 +1,13 @@
+# Study Designs
+
+####	Cross sectional 
+
+####  Cohort
+
+####	Retrospective
+
+####	Rarely prospective – registries, case series more likely
+
+####	All Associations
+
+#### Causal Inference requires randomization

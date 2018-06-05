@@ -1,0 +1,13 @@
+# Statistical inference
+
+
+#### Concepts 
+
+####	DataCamp Stats courses
+
+####	ModernDive chapters
+
+####	Infer package and practice
+
+
+

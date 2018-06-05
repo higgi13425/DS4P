@@ -1,0 +1,10 @@
+# One variable, Multiple groups
+
+#### DataCamp
+
+####	Fun with ANOVA
+
+##### Challenges
+
+#### Consider Regression if complicated
+

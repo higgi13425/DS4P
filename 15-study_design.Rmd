@@ -1,0 +1,11 @@
+# Study Design
+
+####	Hypotheses – null and alternative
+
+####	Specific and testable
+
+####	Inclusion and exclusion
+
+####	How many eligible patients – DataDirect query
+
+####	Be conservative – most won’t enroll

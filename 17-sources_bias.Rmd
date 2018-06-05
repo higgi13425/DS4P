@@ -1,0 +1,13 @@
+# Sources of Bias
+
+####	Generalizability of studies
+
+####	Bias in design
+
+####	Recall Bias
+
+####	Time bias
+
+####	Ascertainment bias
+
+#### Assuming linearity on a scale

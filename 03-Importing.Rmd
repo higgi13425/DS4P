@@ -1,0 +1,20 @@
+# Importing Your Data
+
+## Lots of options – learn rio
+
+## Install rio
+
+## Practice loading data from multiple file types
+
+## Practice saving as csv, rds, xls, xlsx
+
+## DataCamp Courses on Import (Part 1)
+
+## Data Camp Course on Import (Part 2)
+
+## Modern Dive Chapter 1
+
+## Modern Dive Chapter 2 
+
+## Chapter Challenges
+

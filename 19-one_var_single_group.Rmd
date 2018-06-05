@@ -1,0 +1,11 @@
+# One variable, single group
+
+
+#### Continuous value – t test 
+
+#### Challenges for single continuous outcome
+
+#### Estimate single Proportion
+
+#### Challenges for single proportion
+

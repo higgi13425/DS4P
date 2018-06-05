@@ -1,0 +1,16 @@
+# Meta-Analysis
+
+#### Data search
+
+####	Data collection
+
+####	Data Exclusion
+
+####	Data extraction and checking
+
+####	Using Metafor package
+
+#### Making Figures
+
+####	Writing up results in RMarkdown
+

@@ -1,0 +1,30 @@
+# Linear Regression
+
+### DataCamp Course
+
+#### Single outcome, multiple possible predictors
+
+##### Challenges
+
+#### One predictor at a time – multiple univariate models – modelr and broom packages
+
+##### Challenges
+
+#### Choosing predictors for multivariate modeling – testing, dealing with collinearity
+
+##### Challenges
+
+#### Multivariate modeling
+
+##### Challenges
+
+#### Model fit checking
+
+##### Challenges
+
+#### presenting model results with RMarkdown
+
+##### Challenges
+
+
+

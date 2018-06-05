@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Science for Physicians (DS4P)</title>
+  <meta name="description" content="This is an introduction to Data Science targeted at Physicians. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Data Science for Physicians (DS4P)" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is an introduction to Data Science targeted at Physicians. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data Science for Physicians (DS4P)" />
+  
+  <meta name="twitter:description" content="This is an introduction to Data Science targeted at Physicians. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Peter Higgins">
+
+
+<meta name="date" content="2018-06-05">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+<link rel="next" href="importing-your-data.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a><ul>
+<li class="chapter" data-level="1.0.1" data-path="index.html"><a href="index.html#to-install-r"><i class="fa fa-check"></i><b>1.0.1</b> To Install R:</a></li>
+<li class="chapter" data-level="1.0.2" data-path="index.html"><a href="index.html#to-install-rstudio"><i class="fa fa-check"></i><b>1.0.2</b> To Install RStudio:</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
+<li class="chapter" data-level="2.0.1" data-path="intro.html"><a href="intro.html#course-description-and-objectives"><i class="fa fa-check"></i><b>2.0.1</b> Course Description and Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> Starting Out with R and RStudio</a><ul>
+<li class="chapter" data-level="3.1" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#introduction-and-tools-r-rstudio-and-r-markdown"><i class="fa fa-check"></i><b>3.1</b> Introduction and Tools (R, RStudio, and R Markdown)</a></li>
+<li class="chapter" data-level="3.2" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#install-rstudio"><i class="fa fa-check"></i><b>3.2</b> Install RStudio</a></li>
+<li class="chapter" data-level="3.3" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#access-datacamp-online"><i class="fa fa-check"></i><b>3.3</b> Access DataCamp online</a></li>
+<li class="chapter" data-level="3.4" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#datacamp-for-rstudio-ide-part-1"><i class="fa fa-check"></i><b>3.4</b> DataCamp for RStudio IDE (Part 1)</a></li>
+<li class="chapter" data-level="3.5" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#datacamp-for-rstudio-ide-part-2"><i class="fa fa-check"></i><b>3.5</b> DataCamp for RStudio IDE (Part 2)</a></li>
+<li class="chapter" data-level="3.6" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#access-rstudio-cloud"><i class="fa fa-check"></i><b>3.6</b> Access RStudio cloud</a></li>
+<li class="chapter" data-level="3.7" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#r-basics-e-book"><i class="fa fa-check"></i><b>3.7</b> R basics E-book</a></li>
+<li class="chapter" data-level="3.8" data-path="starting-out-with-r-and-rstudio.html"><a href="starting-out-with-r-and-rstudio.html#rstudio-tips-document"><i class="fa fa-check"></i><b>3.8</b> RStudio tips document</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="importing-your-data.html"><a href="importing-your-data.html"><i class="fa fa-check"></i><b>4</b> Importing Your Data</a><ul>
+<li class="chapter" data-level="4.1" data-path="importing-your-data.html"><a href="importing-your-data.html#lots-of-options-learn-rio"><i class="fa fa-check"></i><b>4.1</b> Lots of options – learn rio</a></li>
+<li class="chapter" data-level="4.2" data-path="importing-your-data.html"><a href="importing-your-data.html#install-rio"><i class="fa fa-check"></i><b>4.2</b> Install rio</a></li>
+<li class="chapter" data-level="4.3" data-path="importing-your-data.html"><a href="importing-your-data.html#practice-loading-data-from-multiple-file-types"><i class="fa fa-check"></i><b>4.3</b> Practice loading data from multiple file types</a></li>
+<li class="chapter" data-level="4.4" data-path="importing-your-data.html"><a href="importing-your-data.html#practice-saving-as-csv-rds-xls-xlsx"><i class="fa fa-check"></i><b>4.4</b> Practice saving as csv, rds, xls, xlsx</a></li>
+<li class="chapter" data-level="4.5" data-path="importing-your-data.html"><a href="importing-your-data.html#datacamp-courses-on-import-part-1"><i class="fa fa-check"></i><b>4.5</b> DataCamp Courses on Import (Part 1)</a></li>
+<li class="chapter" data-level="4.6" data-path="importing-your-data.html"><a href="importing-your-data.html#data-camp-course-on-import-part-2"><i class="fa fa-check"></i><b>4.6</b> Data Camp Course on Import (Part 2)</a></li>
+<li class="chapter" data-level="4.7" data-path="importing-your-data.html"><a href="importing-your-data.html#modern-dive-chapter-1"><i class="fa fa-check"></i><b>4.7</b> Modern Dive Chapter 1</a></li>
+<li class="chapter" data-level="4.8" data-path="importing-your-data.html"><a href="importing-your-data.html#modern-dive-chapter-2"><i class="fa fa-check"></i><b>4.8</b> Modern Dive Chapter 2</a></li>
+<li class="chapter" data-level="4.9" data-path="importing-your-data.html"><a href="importing-your-data.html#chapter-challenges"><i class="fa fa-check"></i><b>4.9</b> Chapter Challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-collection.html"><a href="data-collection.html"><i class="fa fa-check"></i><b>5</b> Data Collection</a><ul>
+<li class="chapter" data-level="5.1" data-path="data-collection.html"><a href="data-collection.html#best-practices-for-data-in-spreadsheets"><i class="fa fa-check"></i><b>5.1</b> Best practices for data in spreadsheets</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="data-collection.html"><a href="data-collection.html#httpspeerj.compreprints3183"><i class="fa fa-check"></i><b>5.1.1</b> <span>https://peerj.com/preprints/3183/</span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-collection.html"><a href="data-collection.html#google-forms-and-googlesheets"><i class="fa fa-check"></i><b>5.2</b> Google Forms and GoogleSheets</a></li>
+<li class="chapter" data-level="5.3" data-path="data-collection.html"><a href="data-collection.html#surveymonkey-data"><i class="fa fa-check"></i><b>5.3</b> SurveyMonkey data</a></li>
+<li class="chapter" data-level="5.4" data-path="data-collection.html"><a href="data-collection.html#phi-data-redcap-and-redcapr-package"><i class="fa fa-check"></i><b>5.4</b> PHI data – REDCap and redcapr package</a></li>
+<li class="chapter" data-level="5.5" data-path="data-collection.html"><a href="data-collection.html#issues-with-phi-laptops-memory-sticks-cloud-github"><i class="fa fa-check"></i><b>5.5</b> Issues with PHI – laptops, memory sticks, cloud, github</a></li>
+<li class="chapter" data-level="5.6" data-path="data-collection.html"><a href="data-collection.html#phi-solutions"><i class="fa fa-check"></i><b>5.6</b> PHI solutions</a><ul>
+<li class="chapter" data-level="5.6.1" data-path="data-collection.html"><a href="data-collection.html#private-github"><i class="fa fa-check"></i><b>5.6.1</b> private github</a></li>
+<li class="chapter" data-level="5.6.2" data-path="data-collection.html"><a href="data-collection.html#mbox"><i class="fa fa-check"></i><b>5.6.2</b> M+Box</a></li>
+<li class="chapter" data-level="5.6.3" data-path="data-collection.html"><a href="data-collection.html#deidentifying-phi-with-charlatan-package-in-r"><i class="fa fa-check"></i><b>5.6.3</b> deidentifying PHI with charlatan package in R</a></li>
+<li class="chapter" data-level="5.6.4" data-path="data-collection.html"><a href="data-collection.html#link-to-phi-that-is-secure"><i class="fa fa-check"></i><b>5.6.4</b> link to PHI that is secure</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="data-collection.html"><a href="data-collection.html#other-sources-of-data"><i class="fa fa-check"></i><b>5.7</b> Other sources of data</a><ul>
+<li class="chapter" data-level="5.7.1" data-path="data-collection.html"><a href="data-collection.html#surveys-redcap-and-surveymonkey"><i class="fa fa-check"></i><b>5.7.1</b> Surveys – REDCap and SurveyMonkey</a></li>
+<li class="chapter" data-level="5.7.2" data-path="data-collection.html"><a href="data-collection.html#data-direct"><i class="fa fa-check"></i><b>5.7.2</b> Data Direct</a></li>
+<li class="chapter" data-level="5.7.3" data-path="data-collection.html"><a href="data-collection.html#data-warehouse"><i class="fa fa-check"></i><b>5.7.3</b> Data Warehouse</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="checking-validating-and-exploring-your-data.html"><a href="checking-validating-and-exploring-your-data.html"><i class="fa fa-check"></i><b>6</b> Checking, Validating, And Exploring your Data</a></li>
+<li class="chapter" data-level="7" data-path="data-types.html"><a href="data-types.html"><i class="fa fa-check"></i><b>7</b> Data Types</a></li>
+<li class="chapter" data-level="8" data-path="data-wrangling-with-tidyr-and-dplyr.html"><a href="data-wrangling-with-tidyr-and-dplyr.html"><i class="fa fa-check"></i><b>8</b> Data Wrangling with Tidyr and Dplyr</a></li>
+<li class="chapter" data-level="9" data-path="graphic-summaries-for-a-single-variable-with-ggplot.html"><a href="graphic-summaries-for-a-single-variable-with-ggplot.html"><i class="fa fa-check"></i><b>9</b> Graphic Summaries for a Single Variable with ggplot</a></li>
+<li class="chapter" data-level="10" data-path="graphic-summaries-for-a-single-variable-with-ggplot-1.html"><a href="graphic-summaries-for-a-single-variable-with-ggplot-1.html"><i class="fa fa-check"></i><b>10</b> Graphic Summaries for a Single Variable with ggplot</a></li>
+<li class="chapter" data-level="11" data-path="graphic-summaries-for-two-or-more-variables-ggplot2.html"><a href="graphic-summaries-for-two-or-more-variables-ggplot2.html"><i class="fa fa-check"></i><b>11</b> Graphic Summaries for Two or More Variables – ggplot2</a></li>
+<li class="chapter" data-level="12" data-path="descriptive-data-for-two-or-more-variables.html"><a href="descriptive-data-for-two-or-more-variables.html"><i class="fa fa-check"></i><b>12</b> Descriptive Data for Two or More Variables</a></li>
+<li class="chapter" data-level="13" data-path="presenting-your-results-in-a-report-with-rmarkdown.html"><a href="presenting-your-results-in-a-report-with-rmarkdown.html"><i class="fa fa-check"></i><b>13</b> Presenting your Results in a report with RMarkdown</a></li>
+<li class="chapter" data-level="14" data-path="reproducibility-in-your-research.html"><a href="reproducibility-in-your-research.html"><i class="fa fa-check"></i><b>14</b> Reproducibility in Your Research</a></li>
+<li class="chapter" data-level="15" data-path="statistical-inference.html"><a href="statistical-inference.html"><i class="fa fa-check"></i><b>15</b> Statistical inference</a></li>
+<li class="chapter" data-level="16" data-path="study-design.html"><a href="study-design.html"><i class="fa fa-check"></i><b>16</b> Study Design</a></li>
+<li class="chapter" data-level="17" data-path="sample-size-and-power.html"><a href="sample-size-and-power.html"><i class="fa fa-check"></i><b>17</b> Sample Size and Power</a></li>
+<li class="chapter" data-level="18" data-path="sources-of-bias.html"><a href="sources-of-bias.html"><i class="fa fa-check"></i><b>18</b> Sources of Bias</a></li>
+<li class="chapter" data-level="19" data-path="study-designs.html"><a href="study-designs.html"><i class="fa fa-check"></i><b>19</b> Study Designs</a></li>
+<li class="chapter" data-level="20" data-path="one-variable-single-group.html"><a href="one-variable-single-group.html"><i class="fa fa-check"></i><b>20</b> One variable, single group</a></li>
+<li class="chapter" data-level="21" data-path="one-variable-two-groups.html"><a href="one-variable-two-groups.html"><i class="fa fa-check"></i><b>21</b> One variable, two groups</a></li>
+<li class="chapter" data-level="22" data-path="one-variable-multiple-groups.html"><a href="one-variable-multiple-groups.html"><i class="fa fa-check"></i><b>22</b> One variable, Multiple groups</a></li>
+<li class="chapter" data-level="23" data-path="linear-regression.html"><a href="linear-regression.html"><i class="fa fa-check"></i><b>23</b> Linear Regression</a><ul>
+<li class="chapter" data-level="23.0.1" data-path="linear-regression.html"><a href="linear-regression.html#datacamp-course"><i class="fa fa-check"></i><b>23.0.1</b> DataCamp Course</a></li>
+</ul></li>
+<li class="chapter" data-level="24" data-path="sharing-models-with-shiny.html"><a href="sharing-models-with-shiny.html"><i class="fa fa-check"></i><b>24</b> Sharing Models with Shiny</a></li>
+<li class="chapter" data-level="25" data-path="logistic-regression.html"><a href="logistic-regression.html"><i class="fa fa-check"></i><b>25</b> Logistic Regression</a></li>
+<li class="chapter" data-level="26" data-path="meta-analysis.html"><a href="meta-analysis.html"><i class="fa fa-check"></i><b>26</b> Meta-Analysis</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Physicians (DS4P)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="starting-out-with-r-and-rstudio" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Starting Out with R and RStudio</h1>
+<p><br></p>
+<div id="introduction-and-tools-r-rstudio-and-r-markdown" class="section level2">
+<h2><span class="header-section-number">3.1</span> Introduction and Tools (R, RStudio, and R Markdown)</h2>
+<p><br></p>
+<p>##Install R on your computer</p>
+<p><br></p>
+</div>
+<div id="install-rstudio" class="section level2">
+<h2><span class="header-section-number">3.2</span> Install RStudio</h2>
+<p><br></p>
+</div>
+<div id="access-datacamp-online" class="section level2">
+<h2><span class="header-section-number">3.3</span> Access DataCamp online</h2>
+<p><br></p>
+</div>
+<div id="datacamp-for-rstudio-ide-part-1" class="section level2">
+<h2><span class="header-section-number">3.4</span> DataCamp for RStudio IDE (Part 1)</h2>
+<p><br></p>
+</div>
+<div id="datacamp-for-rstudio-ide-part-2" class="section level2">
+<h2><span class="header-section-number">3.5</span> DataCamp for RStudio IDE (Part 2)</h2>
+<p><br></p>
+</div>
+<div id="access-rstudio-cloud" class="section level2">
+<h2><span class="header-section-number">3.6</span> Access RStudio cloud</h2>
+<p><br></p>
+</div>
+<div id="r-basics-e-book" class="section level2">
+<h2><span class="header-section-number">3.7</span> R basics E-book</h2>
+<p><br>
+Use the e-book Rbasics by Chester Ismay</p>
+<p><a href="https://ismayc.github.io/rbasics-book/" class="uri">https://ismayc.github.io/rbasics-book/</a></p>
+<p><br></p>
+</div>
+<div id="rstudio-tips-document" class="section level2">
+<h2><span class="header-section-number">3.8</span> RStudio tips document</h2>
+<p><br></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="importing-your-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-R_RStudio.Rmd",
+"text": "Edit"
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
